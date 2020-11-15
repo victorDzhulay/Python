@@ -27,4 +27,5 @@ elif startGame == 'Y' or 'y':
     else:
         print('This was a good game!')
         if len(failedVariants) > 0:
+            failedVariants.sort()
             print(f'Yor failed answers list, {userName}: ', failedVariants)
